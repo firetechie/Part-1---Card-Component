@@ -1,0 +1,51 @@
+#container {
+  max-width: 290px;
+  max-height: 290px;
+  margin: 0 auto;
+  margin-top: 20vh;
+}
+body {
+  background-color: #ffffff;
+  font-family: "Source Sans Pro";
+}
+.card {
+  width: 290px;
+  height: 290px;
+  background-color: #ffffff;
+  -moz-box-shadow: 0 0 5px rgb(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 0 5px rgb(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 8px rgb(0, 0, 0, 0.4);
+  transition: 0.1s;
+  border-radius: 1px;
+}
+.card:hover {
+  filter: drop-shadow(0px 3px 18px #00000099);
+}
+img {
+  width: 290px;
+  height: 165px;
+  object-fit: cover;
+}
+.card-details {
+  padding: 20px 16px 14px 16px;
+}
+.tag {
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 15px;
+  color: #0f5ef0;
+}
+.name {
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 18px;
+  color: #7a8594;
+}
+p {
+  font-family: "Source Sans Pro";
+  font-size: 12px;
+  margin-top: 20px;
+  color: #7a8594;
+  font-weight: normal;
+}
